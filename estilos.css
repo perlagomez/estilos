@@ -1,0 +1,44 @@
+/*    */
+/* Agregar la etiqueta soobre la que voy a trabajar
+y sus modificaciones van dentro de un curly braces*/
+h1 {
+    /* Primero la propiedad a cambiar y posteriormente el valor 
+    finalizalo en ; */
+    color:aqua;
+}
+p{
+    color:brown;
+    font-size: 20pt;
+
+}
+/* Selectores */
+/*Selectores de id */
+
+
+#ejemplo-h1 {
+    color:rgb(117, 39, 8);
+    font-size: 30pt;
+
+}
+/* Selector de clase*/
+.euro{
+    color:chocolate;
+    font-size: 20pt;
+}
+.latam{
+    color: blueviolet;
+    font-size: 30pt;
+}
+.fut-llanero{
+    color:blue;
+    font-size: 40pt;
+}
+/* Selector universal: selecciona todas las palabras con # y . para generalizar las modificaciones*/
+
+*#warning{
+    
+}
+
+*.warning{
+
+}
